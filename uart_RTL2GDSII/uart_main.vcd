@@ -1,0 +1,403 @@
+$date
+	Wed Jul 01 21:13:28 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module main_tb $end
+$var wire 1 ! txBit $end
+$var wire 8 " rData [7:0] $end
+$var reg 2 # addr [1:0] $end
+$var reg 1 $ clk $end
+$var reg 8 % data [7:0] $end
+$var reg 1 & read $end
+$var reg 1 ' rst $end
+$var reg 1 ( write $end
+$scope module m1 $end
+$var wire 2 ) addr [1:0] $end
+$var wire 1 $ clk $end
+$var wire 8 * data [7:0] $end
+$var wire 1 & read $end
+$var wire 1 ' rst $end
+$var wire 1 ( write $end
+$var wire 1 + txStart $end
+$var wire 1 , txDone $end
+$var wire 8 - txData [7:0] $end
+$var wire 1 . txBusy $end
+$var wire 1 ! txBit $end
+$var wire 1 / rxError $end
+$var wire 1 0 rxDone $end
+$var wire 8 1 rxData [7:0] $end
+$var wire 1 2 rxBusy $end
+$var wire 1 ! rxBit $end
+$var wire 8 3 rData [7:0] $end
+$var wire 8 4 ctrl [7:0] $end
+$var wire 1 5 baudTick $end
+$var wire 8 6 baudLow [7:0] $end
+$var wire 8 7 baudHigh [7:0] $end
+$scope module b1 $end
+$var wire 1 8 baudEn $end
+$var wire 1 $ clk $end
+$var wire 1 ' rst $end
+$var wire 16 9 clkDiv [15:0] $end
+$var wire 8 : baudLow [7:0] $end
+$var wire 8 ; baudHigh [7:0] $end
+$var reg 1 5 baudTick $end
+$var reg 16 < counter [15:0] $end
+$upscope $end
+$scope module r1 $end
+$var wire 2 = addr [1:0] $end
+$var wire 1 $ clk $end
+$var wire 8 > data [7:0] $end
+$var wire 1 & read $end
+$var wire 1 ' rst $end
+$var wire 1 ( write $end
+$var wire 1 , txDone $end
+$var wire 1 . txBusy $end
+$var wire 1 / rxError $end
+$var wire 1 0 rxDone $end
+$var wire 1 2 rxBusy $end
+$var wire 8 ? STS [7:0] $end
+$var wire 8 @ RX_DATA [7:0] $end
+$var reg 8 A CTRL [7:0] $end
+$var reg 8 B DIV_HIGH [7:0] $end
+$var reg 8 C DIV_LOW [7:0] $end
+$var reg 8 D TX_DATA [7:0] $end
+$var reg 8 E readData [7:0] $end
+$var reg 1 F rxDataReady $end
+$var reg 1 + txStart $end
+$upscope $end
+$scope module r2 $end
+$var wire 8 G baudHigh [7:0] $end
+$var wire 8 H baudLow [7:0] $end
+$var wire 1 $ clk $end
+$var wire 1 ' rst $end
+$var wire 1 I rxEn $end
+$var wire 1 ! rxBit $end
+$var wire 16 J clkDiv [15:0] $end
+$var reg 4 K bitCount [3:0] $end
+$var reg 16 L counter [15:0] $end
+$var reg 1 2 rxBusy $end
+$var reg 8 M rxData [7:0] $end
+$var reg 1 0 rxDone $end
+$var reg 1 / rxError $end
+$upscope $end
+$scope module t1 $end
+$var wire 1 5 baudTick $end
+$var wire 1 $ clk $end
+$var wire 8 N data [7:0] $end
+$var wire 1 ' rst $end
+$var wire 1 O txEn $end
+$var wire 1 + txStart $end
+$var reg 4 P bitCount [3:0] $end
+$var reg 10 Q frame [9:0] $end
+$var reg 1 ! txBit $end
+$var reg 1 . txBusy $end
+$var reg 1 , txDone $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 Q
+b0 P
+0O
+b0 N
+b0 M
+b0 L
+b0 K
+b0 J
+0I
+b0 H
+b0 G
+0F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b0 9
+08
+b0 7
+b0 6
+05
+b0 4
+b0 3
+02
+b0 1
+00
+0/
+0.
+b0 -
+0,
+0+
+b0 *
+b0 )
+0(
+1'
+0&
+b0 %
+0$
+b0 #
+b0 "
+1!
+$end
+#5000
+1$
+#10000
+0$
+#15000
+1$
+#20000
+0$
+0'
+#25000
+b1 J
+b1 9
+b1 6
+b1 :
+b1 C
+b1 H
+b1 %
+b1 *
+b1 >
+b1 #
+b1 )
+b1 =
+1(
+1$
+#30000
+0$
+#35000
+b0 %
+b0 *
+b0 >
+b10 #
+b10 )
+b10 =
+1$
+#40000
+0$
+#45000
+1I
+1O
+18
+b111 4
+b111 A
+b111 %
+b111 *
+b111 >
+b11 #
+b11 )
+b11 =
+1$
+#50000
+0$
+#55000
+1+
+b10100101 -
+b10100101 D
+b10100101 N
+15
+b10100101 %
+b10100101 *
+b10100101 >
+b0 #
+b0 )
+b0 =
+1$
+#60000
+0$
+#65000
+b1 ?
+1.
+b1101001010 Q
+0+
+0(
+1$
+#70000
+0$
+#75000
+b1 P
+b110100101 Q
+0!
+1$
+#80000
+0$
+#85000
+b101 ?
+12
+b10 P
+b11010010 Q
+1!
+1$
+#90000
+0$
+#95000
+b11 P
+b1101001 Q
+0!
+b1 K
+b1 1
+b1 @
+b1 M
+1$
+#100000
+0$
+#105000
+b10 K
+b100 P
+b110100 Q
+1!
+1$
+#110000
+0$
+#115000
+b101 P
+b11010 Q
+0!
+b11 K
+b101 1
+b101 @
+b101 M
+1$
+#120000
+0$
+#125000
+b100 K
+b110 P
+b1101 Q
+1$
+#130000
+0$
+#135000
+b111 P
+b110 Q
+1!
+b101 K
+1$
+#140000
+0$
+#145000
+b110 K
+b100101 1
+b100101 @
+b100101 M
+b1000 P
+b11 Q
+0!
+1$
+#150000
+0$
+#155000
+b1001 P
+b1 Q
+1!
+b111 K
+1$
+#160000
+0$
+#165000
+b1000 K
+b10100101 1
+b10100101 @
+b10100101 M
+1,
+b110 ?
+0.
+b0 P
+b0 Q
+1$
+#170000
+0$
+#175000
+0,
+10
+b1000 ?
+02
+b0 K
+1$
+#180000
+0$
+#185000
+00
+b100000 ?
+1F
+1$
+#190000
+0$
+#195000
+1$
+#200000
+0$
+#205000
+1$
+#210000
+0$
+#215000
+1$
+#220000
+0$
+#225000
+1$
+#230000
+0$
+#235000
+1$
+#240000
+0$
+#245000
+1$
+#250000
+0$
+#255000
+1$
+#260000
+0$
+#265000
+b10100101 "
+b10100101 3
+b10100101 E
+b0 ?
+0F
+1&
+1$
+#270000
+0$
+#275000
+0&
+1$
+#280000
+0$
+#285000
+1$
+#290000
+0$
+#295000
+1$
+#300000
+0$
+#305000
+1$
+#310000
+0$
+#315000
+1$
+#320000
+0$
+#325000
+1$
